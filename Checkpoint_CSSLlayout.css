@@ -1,0 +1,163 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.logo-docplanner{
+  width:268px;
+  height:33px;
+  padding:12px;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+header ul{
+ display: flex;
+  
+
+
+}
+header ul li {
+  padding:8px;
+  list-style-type: none;
+
+
+}
+header ul li a {
+text-decoration:none;
+  color:#747474;
+}
+.menu-item-about{
+  color:#00b39b;
+}
+.menu-item:hover{
+  color:#00b39b;
+}
+
+.lead__logo{
+  display:block;
+margin:0 auto
+}
+h1 {
+ text-align: center;
+color:#00b39b;
+margin:1em 0px;
+
+ font-size: 2.125rem;
+
+ font-family: 'work sans',Arial,sans-serif;
+  font-weight: 300;
+    letter-spacing: -.3px;
+ 
+  
+}
+
+.intro{ 
+  display:flex;
+  justify-content:space-between;
+ } 
+.intro p{
+  margin:30px;
+  padding:0px 50px;
+}
+
+
+  
+.drop{
+  flex-direction:column;
+  position:absolute;
+  padding:25;
+  padding-left:0px;
+  display:none;
+  
+  
+  
+  
+}
+.menu-item-drop:hover + .drop{
+  display:flex;
+  
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#patients{
+  font-size: 25px;
+  border-width: 2px;
+  display: inline-block;
+  margin: 40px 60px;
+  background-color: rgb(25, 209, 185);
+  height: 345px;
+  width: 294.9px;
+  padding: 20px 20px;
+  font-family: 'work sans', Arial, sans-serif ;
+  color: white;
+  font-weight: 300;
+  border-radius: 3%;
+  
+  
+}
+#patients h1{
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.2em 0;
+}
+#patients h2{
+    font-family: 'work sans', Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: -3px;
+}
+.country{
+  color: white;
+  font-size: 23px;
+  margin:90px 10px 10px 20px;
+  border: 0;
+  background: transparent;
+  
+  outline: 0;
+  
+}
+#doctors{
+  border-width: 2px;
+  display: inline-block;
+  margin: 40px 60px;
+  background-color: rgb(66, 134, 224);
+  height: 345px;
+  width: 294.9px;
+  padding: 20px 20px;
+  font-family: 'work sans',Arial,sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 1.8cm;
+  border-radius: 3%;
+  
+  
+}
+#clinics{
+  border-width: 2px;
+  display: inline-block;
+  margin: 40px 60px;
+  background-color: rgb(49, 60, 72);
+  height: 345px;
+  width: 294.9px;
+  padding: 20px 20px;
+  font-family: 'work sans',Arial,sans-serif;
+  color: white;
+  font-weight: 300;
+  line-height: 1.8cm;
+  border-radius: 3%;
+  
+}
+
+
+
